@@ -47,7 +47,7 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 1rem;
-    font-family: "Merriweather", serif;
+    font-family: 'Montserrat', sans-serif, 'Roboto', serif;
     box-shadow: -4px -7px 9px #a84b4b;
     color: #fff;
     font-size: 0.6rem;
@@ -58,20 +58,21 @@ header {
 
 
   h1 {
-    font-family: "Merriweather", serif, "Times New Roman", Times, serif;
+    font-family: 'Montserrat', sans-serif, 'Roboto', serif;
     font-size: 1.2rem;
     text-align: center;
     text-shadow: 4px 5px 9px white;
     margin: 0 2vw;
   }
   h2 {
-    font-family: "Merriweather", serif, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif, 'Roboto', serif;
     font-size: 1rem;
   }
   p,
   h3 {
-    font-family: "Merriweather", serif, Georgia, monospace;
+    font-family: 'Montserrat', sans-serif, 'Roboto', serif;
     font-size: 0.6rem;
     text-align: justify;
     margin: 0 2vw;
   }
+
