@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    
+    <title>Lazyload</title>
+  </head>
+
+  <body>
+  <!-- HEADER--> 
+    <header>
+      
+      <section class="heading">
+        <h1>Progressive Loading of Images</h1>
+        
+      </section>
+      
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span></span></button>
+      
+    </nav>
+   
+    </header>
+    <h4 id="day"></h4>
+    <date></date>
+    <!-- CONTENT HERE -->
+    <main  class="center">
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-002-300x400.jpg" alt="City"></picture>
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-005-300x400.jpg" alt="Color"></picture>
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-006-300x400.jpg" alt="Island"></picture>
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-007-300x400.jpg" alt="Underwater"></picture>
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-011-300x400.jpg" alt ="Stars"></picture>
+        <picture><img src="images/placeholder-300x400.jpg" data-src="images/1536x2048-Background-HD-Wallpaper-012-300x400.jpg" alt="Flower"></picture>
+
+  
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      
+      <br />
+      <hr />
+      <br />
+      <info class="botInfo">
+        <p id="copyright">
+          &copy; 2022 | Val Lorence Labisa | WDD230 
+        </p>
+        <p id="lastmod"></p>
+      </info>
+    </footer>
+  </body>
+  <!-- JAVASCRIPT --> 
+  <script src="scripts/lazyload.js" defer></script>
+</html>
