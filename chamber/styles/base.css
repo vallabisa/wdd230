@@ -227,7 +227,10 @@ main {
   background-color: #EAF6FF;
   padding: 2rem;
   text-align: center;
-}
+  }
+
+
+
 
 a:hover {
   background-color: rgb(175, 175, 172);

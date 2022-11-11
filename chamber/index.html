@@ -67,7 +67,18 @@
 
       <section class="sectEvent">Event</section>
 
-      <section class="sectWeather">Weather</section>
+      <section class="sectWeather">    
+        <h2 id="weatherName">Weather</h2>
+        <div class="temperature">
+          <img src="images/cloudy.png" alt="" />
+          <p id="tempDegree"></p>
+        </div>
+        <p id="tempName"></p>
+        <hr />
+        <div class="windChill">
+          <p id="windSpeed"></p>
+          <p id="windChill"></p>
+        </div></section>
     </main>
 
     <!-- FOOTER HERE -->
@@ -97,5 +108,6 @@
   <!-- JAVASCRIPT --> 
   <script defer src="scripts/"></script>
   <script src="scripts/chamber.js"></script>
+  <script defer src="scripts/windchill.js"></script>
 
 </html>
