@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" >
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <title>Chamber</title>
+  </head>
+
+  <body>
+  <!-- HEADER--> 
+  <!-- HEADER--> 
+  <header>
+    <img class="logo" src="images/singapore-chamber-of-commerce.jpg" alt="Singapore Chamber of Commerce Logo" />
+    <section class="heading">
+      <h1>Singapore</h1>
+      <h2>Chamber of Commerce</h2>
+    </section>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="images/facebook.png" alt="Facebook Logo"/></a>
+      <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin" src="images/linkedin.png" alt="Linkedin Logo"/></a>
+    </div>
+
+
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span></span></button>
+      <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Products</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="active"><a href="join.html">Join</a></li>
+          <li class="active"><a href="discover.html">Discover</a></li>
+           
+      </ul>
+  </nav>
+
+  </header>
+  <div class="date"></div>
+  <aside></aside>
+    
+    <!-- MAIN CONTENT -->
+    <main class="joinMain">
+      <div class="joinContent">
+        <h1>Singapore Chamber of Commerce Join Membership</h1>
+        <form action="thankYou.html" method="get">
+          <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top"
+              >First Name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Phone Number*
+              <input
+                type="number"
+                name="phone"
+                placeholder="0000-0000"
+                required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Business Name* <input type="text" name="bName" required
+            /></label>
+            <!-- <label class="top">Title <input type="text" name="title"></label> -->
+          </fieldset>
+
+          <fieldset>
+            <legend>Business Membership Category</legend>
+            <div>Membership Level</div>
+            <label class="sbs"
+              ><input type="radio" name="blevel" value="Non-Profit" />Non-Profit
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="blevel" value="Bronze" />Bronze
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="blevel" value="Silver" />Silver
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="blevel" value="Gold" />Gold
+              Membership</label
+            >
+          </fieldset>
+
+          <fieldset>
+            <legend>Business Information</legend>
+            <label class="top"
+              >Business Information Category
+              <select name="bcategory" id="business_category">
+                <option value="">Please Select &#9662;</option>
+                <option value="software">Software Development</option>
+                <option value="creative">Creative Professional</option>
+                <option value="info">Information Technology</option>
+                <option value="data">Data Professional</option>
+                <option value="construction">Construction</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="business">Business Professional</option>
+                <option value="security">Small Type Business Owners</option>
+              </select>
+            </label>
+            <label class="top"
+              >Business Description
+              <textarea
+                name="bdescription"
+                id="bdescription"
+                cols="50"
+                rows="10"
+                placeholder="Please Type Here!"
+              ></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Join" class="submitBtn" />
+        </form>
+      </div>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      <section class="botChamber">
+        <div>
+          <p id="botTitle">Singapore| Chamber of Commerce</p>
+          <p id="add">
+            147 Woodlands Industrial Park E5, Singapore 757510
+          </p>
+        </div>
+        <br />
+        <contact> Email: info@scc.org</contact>
+        <contact> Tel: 1234-5678</contact>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <info class="botInfo">
+        <p id="copyright">
+          &copy; 2022 Singapore Chamber| Val Lorence Labisa | WDD230 
+        </p>
+        <p id="lastmod"></p>
+      </info>
+    </footer>
+  </body>
+  <!-- JAVASCRIPT --> 
+  <script defer src="scripts/chamber.js"></script>
+  <script src="scripts/chamber.js"></script>
+  <script defer src="scripts/lazyload.js"></script>
+
+</html>

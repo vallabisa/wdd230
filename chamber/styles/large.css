@@ -58,3 +58,13 @@
     padding-bottom: 2rem;
   }
 }
+
+
+  /* DISCOVER PAGE */
+  picture img {
+    margin-top: 2rem;
+  }
+  /* JOIN PAGE */
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
