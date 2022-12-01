@@ -260,3 +260,41 @@ padding: 0.75rem;
 background-color: #eee;
 color: #050505;
 }
+
+
+/*Discover Page / Lazy Loading Images*/
+.main_discover {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.main_discover h1 {
+  padding: 2rem;
+  background-color: #ddd;
+}
+.main_discover picture img[data-src] {
+  filter: blur(0.2em);
+}
+.main_discover picture img {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+  border: 1px solid #ddd;
+}
+.main_discover h3,
+.main_discover p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.visit {
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  background-color: gold;
+  padding: 1.5rem;
+}
+.visit p {
+  font-weight: bold;
+}
