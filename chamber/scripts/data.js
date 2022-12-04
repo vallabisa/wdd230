@@ -1,6 +1,6 @@
 // Variables Declaration
 
-const requestURL = `https://vallabisa.github.io/wdd230/lesson-9/data/data.json`;
+const requestURL = `https://vallabisa.github.io/wdd230/chamber/data/data.json`;
 const datas = document.querySelector(".datas");
 
 // Fetch API

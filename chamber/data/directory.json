@@ -1,0 +1,68 @@
+{
+    "companies": [
+        {
+            "name": "Marina Bay Sands",
+            "address": "10 Bayfront Avenue, Singapore 018956",
+            "phone": "+65 6688 8888",
+            "website": "https://www.marinabaysands.com/",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/logo.svg" 
+        },
+        {
+            "name": "Resorts World Sentosa",
+            "address": "8 Sentosa Gateway, Singapore 098269",
+            "phone": " +65 6736 8672",
+            "website": "https://www.rwsentosa.com/en",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/rwsentosa.svg"
+        },
+        {
+            "name": "Fullerton Hotel",
+            "address": "Fullerton Square, Singapore 049178O",
+            "phone": "+65 6733 8388",
+            "website": "https://www.fullertonhotels.com/",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/tfh-r-logo.svg"
+        },
+        {
+            "name": "Gardens by the Bay",
+            "address": "18 Marina Gardens Dr, Singapore 018953",
+            "phone": "+65 6420 6848",
+            "website": "https://www.gardensbythebay.com.sg/",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/logo-alt-grey-10year-anniversary.png"
+        },
+        {
+            "name": "Changi Jewel",
+            "address": "78 Airport Boulevard, Singapore 819666",
+            "phone": "+65 6956 9898",
+            "website": "https://www.jewelchangiairport.com/en/attractions.html",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/logo-white@3x.png"
+        },
+        {
+            "name": "DBS",
+            "address": "460 Alexandra Road, Singapore 119963",
+            "phone": "1800 111 1111",
+            "website": "https://www.dbs.com.sg/",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/dbs_logo.svg"
+        },
+        {
+            "name": "CapitaLand Singapore",
+            "address": "168 Robinson Road, Singapore 068912",
+            "phone": " +65 6713 2888",
+            "website": "https://www.capitaland.com/en.html",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/Capitaland.webp"
+        },
+        {
+            "name": "Keppel",
+            "address": "50 Gul Road, Singapore 629351",
+            "phone": "+65 6863 7200",
+            "website": "https://www.keppelom.com",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/keppel.webp"
+        },
+        {
+            "name": "ST Engineering",
+            "address": "1 Ang Mo Kio Electronics Park Road, Singapore 567710 ",
+            "phone": "+65 7233 1777",
+            "website": "https://www.stengg.com/",
+            "imageUrl": "https://vallabisa.github.io/wdd230/chamber/images/directory/st.webp"
+        }
+
+    ]
+}
