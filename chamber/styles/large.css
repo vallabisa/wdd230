@@ -68,3 +68,21 @@
   form label.sbs {
     padding: 0.4rem 0;
   }
+
+    /* DIRECTORY PAGE */
+    .directory {
+      border-style: none;
+    }
+    .datas {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .datas h2,
+    .datas h3,
+    .datas p {
+      font-size: 1rem;
+    }
+    #contactInfo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }

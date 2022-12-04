@@ -55,3 +55,16 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+/* DIRECTORY PAGE */
+.datas {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+.datas h2,
+.datas h3,
+.datas p {
+  font-size: 0.9rem;
+}
